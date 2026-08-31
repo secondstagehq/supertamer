@@ -1,21 +1,46 @@
 # Supertamer
 
-혼자 제품을 만드는 사람의 제품 빌딩 동반자 — macOS 네이티브 앱입니다.
+A product-building companion for people who build alone — a native macOS app.
 
-이 저장소는 베타 빌드 배포용입니다. 최신 빌드는 [Releases](https://github.com/secondstagehq/supertamer/releases)에서 받으세요.
+This repository distributes beta builds. Get the newest one from
+[Releases](https://github.com/secondstagehq/supertamer/releases).
 
-## 설치
+**The app's source is not public.** GitHub attaches a "Source code" archive to every release
+automatically; here that archive is this README and nothing else.
 
-1. 최신 릴리즈에서 `Supertamer.zip`을 내려받아 압축을 풉니다.
-2. `Supertamer.app`을 `/Applications`로 옮깁니다.
-3. 이 베타는 공증(notarization)되지 않았습니다. 첫 실행이 차단되면 다음 중 하나로 엽니다.
-   - 시스템 설정 → 개인정보 보호 및 보안 → "확인 없이 열기"
-   - 또는 터미널에서:
+## Requirements
 
-     ```bash
-     xattr -dr com.apple.quarantine /Applications/Supertamer.app
-     ```
+- macOS 14 or later
+- Apple Silicon (the app is built and tested on Apple Silicon only)
 
-## 요구 사항
+## Install
 
-- macOS (Apple Silicon / Intel universal 바이너리)
+1. Download `Supertamer.zip` from the newest release and unzip it.
+2. Move `Supertamer.app` to `/Applications`, replacing any older copy of the same name.
+3. Open it. Builds are signed with a Developer ID certificate and notarized by Apple, so
+   Gatekeeper should not warn you and no `xattr` workaround is needed.
+4. If you keep agent sessions open, restart them after installing — a running session keeps
+   talking to the helper binary it started with.
+
+### Upgrading from a build older than 2026-08-31
+
+Earlier betas installed two apps side by side. The transition is over and there is one app now,
+so delete the retired one by hand — a new install replaces `Supertamer.app` only, and leaving the
+old bundle in place lets it compete for `supertamer://` links:
+
+```bash
+rm -rf /Applications/SupertamerWeb.app
+```
+
+Your data is untouched by this. Both bundles opened the same local database and the same iCloud
+container, and settings you changed in the newer shell are carried over on first launch.
+
+## Beta expiry
+
+Each beta carries a signed expiry date and refuses to open your data after it. The current build
+expires **2026-10-01 00:00 UTC**. Expiring changes nothing in your database — install a newer
+build and it opens again.
+
+## Support
+
+Report problems in [Issues](https://github.com/secondstagehq/supertamer/issues).
