@@ -15,7 +15,7 @@ automatically; here that archive is this README and nothing else.
 
 ## Install
 
-1. Download `Supertamer.zip` from the newest release and unzip it.
+1. Download the `Supertamer-*.zip` asset from the newest release and unzip it.
 2. Move `Supertamer.app` to `/Applications`, replacing any older copy of the same name.
 3. Open it. Builds are signed with a Developer ID certificate and notarized by Apple, so
    Gatekeeper should not warn you and no `xattr` workaround is needed.
@@ -38,7 +38,7 @@ container, and settings you changed in the newer shell are carried over on first
 ## Beta expiry
 
 Each beta carries a signed expiry date and refuses to open your data after it. The current build
-expires **2026-10-01 00:00 UTC**. Expiring changes nothing in your database — install a newer
+expires **2026-11-01 00:00 UTC**. Expiring changes nothing in your database — install a newer
 build and it opens again.
 
 ## Support
