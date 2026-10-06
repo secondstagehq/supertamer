@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Supertamer</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Tue, 06 Oct 2026 15:12:17 +0900</pubDate>
+            <link>https://github.com/secondstagehq/supertamer</link>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/secondstagehq/supertamer/releases/download/dev-20261006b/Supertamer-1.0-79.zip" length="413397200" type="application/octet-stream" sparkle:edSignature="Z36yoxYZOnJH5eLxRRboMHzxahx1piglRO1rZH9N0XX1vjeSiPEDAcgLNhASZOhoE8mfVrJItju1oT5YLfazBg=="/>
+        </item>
+    </channel>
+</rss>
