@@ -4,6 +4,16 @@
         <title>Supertamer</title>
         <item>
             <title>1.0</title>
+            <pubDate>Fri, 09 Oct 2026 17:36:25 +0900</pubDate>
+            <link>https://github.com/secondstagehq/supertamer</link>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/secondstagehq/supertamer/releases/download/dev-20261009/Supertamer-1.0-84.zip" length="358540455" type="application/octet-stream" sparkle:edSignature="E0a2AVtXJSgJOzv6As+/CHAIW0Kbi1I7rdormvaAahL1xBdKJ2J9geYRsLm2Ri1epa01QWYga51upYDjkO1cCw=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Tue, 06 Oct 2026 21:19:51 +0900</pubDate>
             <link>https://github.com/secondstagehq/supertamer</link>
             <sparkle:version>82</sparkle:version>
