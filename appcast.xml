@@ -4,6 +4,16 @@
         <title>Supertamer</title>
         <item>
             <title>1.0</title>
+            <pubDate>Mon, 12 Oct 2026 21:21:53 +0900</pubDate>
+            <link>https://github.com/secondstagehq/supertamer</link>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/secondstagehq/supertamer/releases/download/dev-20261012b/Supertamer-94.zip" length="359420342" type="application/octet-stream" sparkle:edSignature="gD/4+s9Cndr1ZRrhqSaOdtoxfW72yI6RQQbc+rd+qc+Dctgzdz7GExB/2Wg1tDkRflcSOUXjQCk1QVPFCPNeBw=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Mon, 12 Oct 2026 18:58:12 +0900</pubDate>
             <link>https://github.com/secondstagehq/supertamer</link>
             <sparkle:version>93</sparkle:version>
@@ -21,16 +31,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/secondstagehq/supertamer/releases/download/dev-20261011e/Supertamer-1.0-91.zip" length="359405912" type="application/octet-stream" sparkle:edSignature="5hA2x9PAuQOht4XYfRX0Qx5A3KJx/71TSKuzbeZYiWcHkLgDrwmbyo+ywcg2gVVQYgZZYOsaf9ViXZ6J4mRZBQ=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 11 Oct 2026 20:41:58 +0900</pubDate>
-            <link>https://github.com/secondstagehq/supertamer</link>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/secondstagehq/supertamer/releases/download/dev-20261011d/Supertamer.zip" length="359394071" type="application/octet-stream" sparkle:edSignature="zdnUP3Kt0+QhINnu//l8FmkJGkwIYVdOEloQzJmunU3GpuIx4Agd6R3nxDnAsctmsY8GUfPt21RPaGcgZGHdCg=="/>
         </item>
         <item>
             <title>1.0</title>
